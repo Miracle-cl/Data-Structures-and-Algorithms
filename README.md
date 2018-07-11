@@ -1,4 +1,4 @@
-# data-structures-and-algorithms
+# Data Structures and Algorithms
 The specialization from UCSD in coursera
 
 - Course 1 : Algorithmic Toolbox

@@ -1,8 +1,8 @@
 # Algorithmic-Toolbox
 
-## Greedy algorithms: 
+- Greedy algorithms: 
 
-## Divide and conquer
+- Divide and conquer
 
-## Dynamic programming
+- Dynamic programming
 

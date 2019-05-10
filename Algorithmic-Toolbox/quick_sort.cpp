@@ -48,8 +48,9 @@ public:
     pair<int,int> three_part(vector<int>& nums, int left, int right) {
         int x = nums[left];
         int i = left + 1;
-        pair<int,int> tp;
-        tp = std::make_pair(left, right);
+        // pair<int,int> tp;
+        // tp = std::make_pair(left, right);
+        pair<int,int> tp (left, right);
         while (i <= tp.second) {
             if (nums[i] < x) {
                 std::swap(nums[tp.first], nums[i]);

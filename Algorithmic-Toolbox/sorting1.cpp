@@ -5,21 +5,6 @@
 using std::vector;
 using std::swap;
 
-//6 6 0 4 8 7 6 4 7 5 is wrong
-
-// int partition2(vector<int> &a, int l, int r) {
-//   int x = a[l];
-//   int j = l;
-//   for (int i = l + 1; i <= r; i++) {
-//     if (a[i] <= x) {
-//       j++;
-//       swap(a[i], a[j]);
-//     }
-//   }
-//   swap(a[l], a[j]);
-//   return j;
-// }
-
 struct Mid_num {
   int begin;
   int end;
@@ -31,7 +16,7 @@ Mid_num partition3(vector<int> &a, int l, int r) {
   int i = l;
   int lt = l; // part less than x
   int gt = r; // part greater than x
-  while (i < gt) {
+  while (i <= gt) {
     if (a[i] < x) {
       swap(a[i], a[lt]);
       ++lt;
